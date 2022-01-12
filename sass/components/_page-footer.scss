@@ -1,0 +1,28 @@
+.page-footer__container {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
+}
+.address-join-thumb {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-around;
+  }
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 60px;
+  }
+  @media screen and (min-width: 1200px) {
+    justify-content: stretch;
+  }
+}
+.page-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: var(--hero-footer-bg-color);
+
+  text-align: center;
+}
+.page-footer__logo {
+  margin-bottom: 20px;
+}

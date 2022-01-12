@@ -1,0 +1,31 @@
+.footer-socials {
+  display: flex;
+  justify-content: center;
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+  }
+}
+
+.footer-socials__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-socials__link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+
+  background-color: var(--icon-deactive-footer);
+  border-radius: 50%;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-socials__link:hover,
+.footer-socials__link:focus {
+  background-color: var(--primary-blue-accent-color);
+}
