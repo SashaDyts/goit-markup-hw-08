@@ -1,5 +1,7 @@
 .header-socials {
   display: flex;
+  max-width: 357px;
+  // justify-content: space-between;
 
   @media screen and (min-width: 768px) {
     display: none;

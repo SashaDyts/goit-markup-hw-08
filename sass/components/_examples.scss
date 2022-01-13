@@ -11,7 +11,7 @@
   }
 }
 .examples__item {
-  width: 450px;
+  max-width: 450px;
 
   @media screen and (min-width: 768px) {
     width: calc((100% - 60px) / 2);

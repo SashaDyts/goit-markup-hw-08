@@ -33,6 +33,9 @@
         url(../images/heroback-desktop@2x.jpg);
     }
   }
+  @media screen and (min-width: 1200px) {
+    padding: 200px 0;
+  }
 }
 .hero__title {
   font-weight: 900;
