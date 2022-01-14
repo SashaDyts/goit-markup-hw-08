@@ -469,7 +469,13 @@ img {
   letter-spacing: 0.02em;
 }
 
-@media screen and (max-width: 405px) {
+@media screen and (min-width: 340px) and (max-width: 410px) {
+  .header-socials__link {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 340px) {
   .header-socials__link {
     font-size: 12px;
   }
