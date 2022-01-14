@@ -188,7 +188,7 @@ img {
     top: 0;
     left: 0;
     z-index: 2;
-    padding: 48px 40px;
+    padding: 48px 0 48px 40px;
     min-width: 100%;
     background-color: var(--primary-white-color);
   }
@@ -447,7 +447,6 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 357px;
 }
 
 @media screen and (min-width: 768px) {
@@ -468,6 +467,12 @@ img {
   font-size: 18px;
   line-height: 1.22;
   letter-spacing: 0.02em;
+}
+
+@media screen and (max-width: 405px) {
+  .header-socials__link {
+    font-size: 12px;
+  }
 }
 
 .hero {
