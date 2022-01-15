@@ -13,6 +13,7 @@
 }
 .menu-thumb {
   display: none;
+  height: 100%;
 
   @media screen and (max-width: 767px) {
     position: absolute;
@@ -34,6 +35,8 @@
   }
   &.is-open {
     display: block;
+    position: fixed;
+    overflow-y: scroll;
 
     @media screen and (min-width: 768px) {
       display: flex;
@@ -60,8 +63,8 @@
     z-index: 3;
   }
 
-  &:hover &__icon-close,
-  &:hover &__icon-menu {
+  &__icon-close:hover,
+  &__icon-menu:hover {
     fill: var(--primary-blue-accent-color);
   }
 }

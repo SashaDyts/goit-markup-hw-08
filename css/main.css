@@ -180,6 +180,7 @@ img {
 
 .menu-thumb {
   display: none;
+  height: 100%;
 }
 
 @media screen and (max-width: 767px) {
@@ -208,6 +209,8 @@ img {
 
 .menu-thumb.is-open {
   display: block;
+  position: fixed;
+  overflow-y: scroll;
 }
 
 @media screen and (min-width: 768px) {
@@ -238,8 +241,7 @@ img {
   z-index: 3;
 }
 
-.header-button:hover .header-button__icon-close,
-.header-button:hover .header-button__icon-menu {
+.header-button__icon-close:hover, .header-button__icon-menu:hover {
   fill: var(--primary-blue-accent-color);
 }
 
