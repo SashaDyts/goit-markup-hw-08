@@ -22,6 +22,10 @@
   background-color: var(--hero-footer-bg-color);
 
   text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
 }
 .page-footer__logo {
   margin-bottom: 20px;

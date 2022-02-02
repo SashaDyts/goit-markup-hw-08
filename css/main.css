@@ -923,6 +923,12 @@ img {
   text-align: center;
 }
 
+@media screen and (min-width: 1200px) {
+  .page-footer {
+    text-align: left;
+  }
+}
+
 .page-footer__logo {
   margin-bottom: 20px;
 }
