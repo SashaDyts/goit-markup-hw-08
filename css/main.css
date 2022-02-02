@@ -937,6 +937,12 @@ img {
   }
 }
 
+@media screen and (min-width: 1199px) {
+  .footer-contacts {
+    text-align: left;
+  }
+}
+
 .footer-contacts__item:not(:last-child) {
   margin-bottom: 9px;
 }
